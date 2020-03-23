@@ -13,21 +13,33 @@ public class Dog {
 	
 	private String breed;
 	private String size;
+	private String description;
+
+	public Dog(int id, String breed, String size, String description) {
+		super();
+		this.id = id;
+		this.breed = breed;
+		this.size = size;
+		this.description = description;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
 
 	public Dog() {
 		super();
 	}
 
-	public Dog(int id, String breed, String size) {
-		super();
-		this.id = id;
-		this.breed = breed;
-		this.size = size;
-	}
+	
 
 	@Override
 	public String toString() {
-		return "Dog [id=" + id + ", breed=" + breed + ", size=" + size + "]";
+		return "Dog [id=" + id + ", breed=" + breed + ", size=" + size + ", description=" + description + "]";
 	}
 
 	public int getId() {

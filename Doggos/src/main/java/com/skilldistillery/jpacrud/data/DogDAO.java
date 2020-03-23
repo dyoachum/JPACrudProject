@@ -10,5 +10,11 @@ public interface DogDAO {
 	
 	Dog findById(int id);
 	List<Dog> findAll();
+	static Dog createDog(Dog dog) {
+		return dog;
+	} 
+	
+		
+	}
 
-}
+

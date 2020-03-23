@@ -12,7 +12,7 @@
    
 	<!--end entities  -->
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/Dogdb?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=MST" />
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/Dogdb?useSSL=false&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" />
       <property name="javax.persistence.jdbc.user" value="doguser"/>
       <property name="javax.persistence.jdbc.password" value="doguser" />
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
