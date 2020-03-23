@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Doggo updated</title>
 </head>
 <body>
 	<c:choose>
@@ -15,8 +15,7 @@
 			<h2>Breed: ${dog.breed }</h2>
 		</c:when>
 	</c:choose>
-	<form action="index.html">
-		<input type="submit" value="Return to homepage">
-	</form>
+	<a class="btn btn-lg btn-primary" href="home.do" role="button">Home</a>
+	
 </body>
 </html>
